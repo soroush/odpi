@@ -21,19 +21,15 @@ See the [ODPI-C Documentation](https://oracle.github.io/odpi/doc/index.html) and
 
 ## Samples
 
-See [/samples](https://github.com/oracle/odpi/tree/master/samples).
+See [/samples](https://github.com/soroush/odpi/tree/master/samples).
 
 ## Help
 
-Please report bugs and ask questions using [GitHub issues](https://github.com/oracle/odpi/issues).
+Please report bugs and ask questions using [GitHub issues](https://github.com/soroush/odpi/issues).
 
 ## Tests
 
-See [/test](https://github.com/oracle/odpi/tree/master/test).
-
-## Contributing
-
-See [CONTRIBUTING](https://github.com/oracle/odpi/blob/master/CONTRIBUTING.md).
+See [/test](https://github.com/soroush/odpi/tree/master/test).
 
 ## Drivers Using ODPI-C
 
