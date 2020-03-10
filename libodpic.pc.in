@@ -7,7 +7,7 @@ Name: @PACKAGE_NAME@
 Description: Oracle Database Programming Interface for C
 Version: @PACKAGE_VERSION@
 URL: @PACKAGE_URL@
-Requires: @AX_PACKAGE_REQUIRES@
-Requires.private: @AX_PACKAGE_REQUIRES_PRIVATE@
+Requires:
+Requires.private:
 Libs: -L${libdir} -lodpic
 Cflags:

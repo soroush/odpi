@@ -21,14 +21,14 @@
 
 set echo off termout on feedback off verify off
 
-define main_user = "odpic"              -- $ODPIC_TEST_MAIN_USER
-define main_password = "welcome"        -- $ODPIC_TEST_MAIN_PASSWORD
-define proxy_user = "odpic_proxy"       -- $ODPIC_TEST_PROXY_USER
-define proxy_password = "welcome"       -- $ODPIC_TEST_PROXY_PASSWORD
-define edition_user = "odpic_edition"   -- $ODPIC_TEST_EDITION_USER
-define edition_password = "welcome"     -- $ODPIC_TEST_EDITION_PASSWORD
-define edition_name = "odpic_e1"        -- $ODPIC_TEST_EDITION_NAME
-define dir_name = "odpic_dir"           -- $ODPIC_TEST_DIR_NAME
+define main_user = "ODPIC_TEST_MAIN"         -- $ODPIC_TEST_MAIN_USER
+define main_password = "odpictm"             -- $ODPIC_TEST_MAIN_PASSWORD
+define proxy_user = "ODPIC_TEST_PROXY"       -- $ODPIC_TEST_PROXY_USER
+define proxy_password = "odpictp"            -- $ODPIC_TEST_PROXY_PASSWORD
+define edition_user = "ODPIC_TEST_EDITION"   -- $ODPIC_TEST_EDITION_USER
+define edition_password = "odpicte"          -- $ODPIC_TEST_EDITION_PASSWORD
+define edition_name = "odpic_e1"             -- $ODPIC_TEST_EDITION_NAME
+define dir_name = "odpic_dir"                -- $ODPIC_TEST_DIR_NAME
 define dir_path = "/tmp"
 
 prompt ************************************************************************

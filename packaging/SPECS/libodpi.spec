@@ -9,10 +9,14 @@ URL:            https://github.com/soroush/odpi
 Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-# Uses libodb from Code Synthesis
-BuildRequires: gcc-c++
 
-# Uses Oracle OCCI 19.5
+# Prevent strip binaries (bugfix)
+%global __strip /bin/true
+
+# Declare dependencies
+BuildRequires: gcc
+
+# Uses Oracle OCCI 19.5 (Though we don't link against any of these libs)
 BuildRequires: oracle-instantclient19.5-devel >= 19.5
 BuildRequires: oracle-instantclient19.5-basic >= 19.5
 

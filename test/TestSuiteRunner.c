@@ -27,6 +27,7 @@ extern char **environ;
 #endif
 
 #define NUM_EXECUTABLES                 33
+#define PATH_MAX 255
 
 static const char *dpiTestNames[NUM_EXECUTABLES] = {
     "TestContext",
